@@ -64,7 +64,7 @@ h1{
 .intro h3{
   padding-top: 50px;
   color: gray;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .description{
@@ -83,7 +83,7 @@ h1{
 .tools-available{
   padding: 20px 0px 50px 10px;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
 }
 
@@ -98,7 +98,7 @@ h1{
 #output{
   display: none;
   background-color: #826F66;
-  font-weight:normal;
+  font-weight: normal;
   color: white;
 }
 
