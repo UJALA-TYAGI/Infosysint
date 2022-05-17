@@ -6,7 +6,8 @@ red="\033[1;31;40m"
 Y = '\033[1;33;40m'
 def number():
     phonenum = input("Enter Mobile Number with country code >> ")
-    url = ("http://apilayer.net/api/validate?access_key=433092707319d5d802a9fc4a5282433b&number="+phonenum)
+    key = "your key here"
+    url = ("http://apilayer.net/api/validate?access_key="+key+"&number="+phonenum
     # url = ("https://api.telnyx.com/anonymous/v2/number_lookup/" + phonenum)
     resp = requests.get(url)
     details = resp.json()
