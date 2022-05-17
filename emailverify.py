@@ -9,8 +9,8 @@ W = '\033[0m'
 def email():
     dictemail={}
     email=input("Email address to check >> ")
-    # url="https://app.verify-email.org/api/v1/mFyMW4NCYyyI8mRcK3mIzkIYNu1BnWskMNPabWyOJU007FVH1I/verify/"+email
-    url = "https://api.hunter.io/v2/email-verifier?email=" +email + "&api_key=9f32356c225abc29986cbd4eb4fb8aedd7b1e2e2"
+    key = "your api key here"
+    url = "https://api.hunter.io/v2/email-verifier?email=" +email + "&api_key="+key
     r=requests.get(url)
     # text = r.text
     # dictemail = json.loads(r)
